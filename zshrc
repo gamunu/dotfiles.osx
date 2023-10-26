@@ -75,7 +75,7 @@ command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
 # Golang
-export GOPATH=/home/gamunu/work
+export GOPATH="$HOME/work"
 export PATH=$PATH:$GOPATH/bin
 
 # Node environment
@@ -88,3 +88,8 @@ alias k=kubectl
 alias kctx=kubectx
 
 source <(kubectl completion zsh)
+
+if brew list --cask | grep -q docker ; then
+  # configure docker host
+  export DOCKER_HOST=tcp://snowy:2375
+fi
