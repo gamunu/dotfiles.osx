@@ -8,6 +8,11 @@ This repository lists all the dotfiles I use on my macOS machine. The repository
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
+## Clone repository
+```bash
+git clone https://github.com/gamunu/dotfiles.osx.git ~/.dotfiles
+```
+
 ## Install brew packages
 
 ```bash
