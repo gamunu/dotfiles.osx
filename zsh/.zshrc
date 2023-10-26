@@ -63,7 +63,7 @@ alias lsa='ls -lah'
 alias l='ls -lah'
 alias ll='ls -lh'
 alias la='ls -lAh'
-
+alias vim='nvim'
 
 # Programing and language configuration
 #--------------------------------------
@@ -89,7 +89,7 @@ alias kctx=kubectx
 
 source <(kubectl completion zsh)
 
-if brew list --cask | grep -q docker ; then
+if ! brew list --cask | grep -q docker ; then
   # configure docker host
   export DOCKER_HOST=tcp://snowy:2375
 fi
