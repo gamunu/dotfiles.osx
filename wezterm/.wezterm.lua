@@ -53,6 +53,9 @@ config.window_decorations = "INTEGRATED_BUTTONS|RESIZE"
 config.initial_cols = 120
 config.initial_rows = 30
 
+-- default program
+config.default_prog = { '/bin/zsh', '-l' }
+
 -- font configuration
 config.font = wezterm.font("Monaco", { weight = "Regular" })
 config.font_size = 13.0

@@ -7,15 +7,17 @@ brew "fzf"
 
 # Development Packages
 brew "git"
-brew "nvim"
+brew "neovim"
 brew "nodenv"
 brew "pyenv"
 
 # Kubernetes Packages
+brew "kubernetes-cli"
 brew "kubectx"
-brew "kubectl"
 brew "helm"
 brew "k9s"
+brew "docker"
+brew "docker-completetion"
 
 # Utility Packages
 brew "bat"
@@ -26,3 +28,8 @@ brew "stow"
 brew "ripgrep"
 brew "exa"
 
+# Install terraform
+brew "terraform"
+brew "terraform-docs"
+brew "tflint"
+brew "tfsec"
