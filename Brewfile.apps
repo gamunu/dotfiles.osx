@@ -1,0 +1,25 @@
+cask_args appdir: "/Applications"
+
+brew "mas"
+
+# browser
+cask "alex313031-thorium"
+cask "adguard"
+
+# video player
+cask "iina"
+cask "jellyfin-media-player"
+cask "handbrake"
+
+# communication
+cask "slack"
+cask "whatsapp"
+cask "discord"
+
+# Utilities
+cask "wezterm"
+cask "betterdisplay"
+cask "enpass"
+cask "keka"
+cask "latest"
+cask "app-cleaner"

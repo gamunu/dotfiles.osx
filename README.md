@@ -13,10 +13,16 @@ This repository lists all the dotfiles I use on my macOS machine. The repository
 git clone https://github.com/gamunu/dotfiles.osx.git ~/.dotfiles
 ```
 
-## Install brew packages
+## Install utilities
 
 ```bash
 brew bundle --file=Brewfile
+```
+
+## Install applications
+
+```bash
+brew bundle --file=Brewfile.apps
 ```
 
 ## Install configuration files
