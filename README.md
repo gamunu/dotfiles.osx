@@ -34,5 +34,5 @@ stow -n -t ~ zsh wezterm
 
 ### configure dotfiles
 ```bash
-stow -t ~ zsh wezterm
+stow -t ~ zsh wezterm starship
 ```
