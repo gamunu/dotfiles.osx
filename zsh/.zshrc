@@ -13,7 +13,10 @@ bindkey "^[[3~" delete-char
 # mac keyboard
 #stty intr '^X@sT'
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+# setup brew path
+export PATH="/opt/homebrew/bin:$PATH"
+
+# customize prompt
 eval "$(starship init zsh)"
 
 # ZSH completion
