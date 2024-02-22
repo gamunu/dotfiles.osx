@@ -29,10 +29,10 @@ brew bundle --file=Brewfile.apps
 
 ### test with dry-run
 ```bash
-stow -n -t ~ zsh wezterm
+stow -n -t ~ zsh
 ```
 
 ### configure dotfiles
 ```bash
-stow -t ~ zsh wezterm starship
+stow -t ~ zsh starship
 ```
