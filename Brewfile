@@ -15,6 +15,10 @@ brew "pyenv"
 
 brew "golang"
 
+# Install cloud tools
+brew "awscli"
+brew "tsh"
+
 # Kubernetes Packages
 brew "kubernetes-cli"
 brew "kubectx"

@@ -8,7 +8,7 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 # setup emacs keybindings
-bindkey -v
+#bindkey -v
 bindkey "^[[3~" delete-char
 # mac keyboard
 #stty intr '^X@sT'
@@ -93,7 +93,3 @@ alias kctx=kubectx
 
 source <(kubectl completion zsh)
 
-if ! brew list --cask | grep -q docker ; then
-  # configure docker host
-  export DOCKER_HOST=tcp://snowy:2375
-fi
