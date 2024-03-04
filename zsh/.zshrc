@@ -73,6 +73,12 @@ alias vim='nvim'
 #--------------------------------------
 export REPO="${HOME}/work"
 
+# nvim mason
+export PATH="$HOME/.local/share/nvim/mason/bin/:$PATH"
+
+# mysql client
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
+
 # python
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"

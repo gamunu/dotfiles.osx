@@ -14,6 +14,7 @@ brew "nodenv"
 brew "pyenv"
 
 brew "golang"
+brew "rust"
 
 # Install cloud tools
 brew "awscli"
@@ -35,6 +36,7 @@ brew "tree"
 brew "stow"
 brew "ripgrep"
 brew "eza"
+brew "tmux"
 
 # Install terraform
 brew "terraform"
